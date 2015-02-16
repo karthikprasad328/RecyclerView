@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    card_view:cardCornerRadius="5dp"
+    >
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/listmovielayout"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/movietitle"
+            android:layout_marginLeft="10dp"
+            android:layout_toLeftOf="@+id/movieimage"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="5dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/moviedesc"
+            android:layout_below="@+id/rating"
+            android:layout_toLeftOf="@+id/movieimage"
+            android:layout_marginLeft="10dp"
+            />
+        <RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="?android:attr/ratingBarStyleSmall"
+            android:layout_below="@+id/movietitle"
+            android:id="@+id/rating"
+            android:layout_alignStart="@+id/movietitle"
+            android:layout_alignLeft="@+id/movietitle"
+
+            />
+
+        <ImageView
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:id="@+id/movieimage"
+            android:layout_marginTop="10dp"
+            android:layout_toLeftOf="@+id/checkbox"
+            />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:id="@+id/checkbox"
+            android:paddingTop="5dp"
+            android:paddingRight="5dp"
+            android:clickable="true"
+            />
+    </RelativeLayout>
+
+
+</android.support.v7.widget.CardView>

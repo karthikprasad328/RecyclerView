@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Karthik Nanjundaswamy Guru Prasad</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="home">Home</string>
+    <string name="name">Karthik Nanjundaswamy Guru Prasad</string>
+    <string name="session">CIS-600 Android Programming</string>
+    <string name="recyclerview">RecyclerView</string>
+</resources>
